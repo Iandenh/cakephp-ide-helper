@@ -16,6 +16,8 @@ class BehaviorTask implements TaskInterface {
 	 */
 	protected $aliases = [
 		'\\' . self::CLASS_TABLE . '::addBehavior(0)',
+		'\\' . self::CLASS_TABLE . '::getBehavior(0)',
+		'\\' . self::CLASS_TABLE . '::hasBehavior(0)',
 	];
 
 	/**
